@@ -123,7 +123,7 @@ function generateReferralLink(walletAddress) {
 }
 
 // Start server
-const PORT = 5004;
+const PORT = 8080;
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
 });
